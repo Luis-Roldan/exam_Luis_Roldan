@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: aliceblue;
     font-family: Arial, sans-serif;
     color-scheme: black;
 }
@@ -10,7 +9,7 @@
 h1 {
     text-align: center;
     padding: 20px 0;
-    color: cadetblue;
+   
 }
 
 h2 {
@@ -30,4 +29,87 @@ p {
 
     padding: 20px 0;
 
+}
+
+header {
+    text-align: center;
+    padding: 20px 0;
+    background-color: rgb(205, 5, 5);
+    color: rgb(0, 0, 0);
+}
+
+div {
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    background-color: rgb(136, 117, 190);
+}
+
+#name-logo {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin: 20px 0;
+
+    background-color: rgb(249, 253, 253);
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+    margin: 20px 0;
+}
+
+nav ul li {
+    list-style: none;
+    text-decoration: none;
+    color: rgba(160, 202, 9, 0.149);
+    padding: 10px 20px;
+     background-color: rgba(0, 0, 0, 0.149);
+}
+
+
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(235, 255, 16);
+ 
+    padding: 10px 20px;
+}
+
+nav ul li a:hover {
+    color: rgb(255, 0, 0);
+    text-decoration: none
+}
+
+nav ul li:hover {
+    background-color: rgb(0, 0, 0);
+    border-radius: 10px;
+    color: rgb(154, 231, 21);
+}
+
+section {
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    background-color: rgb(139, 189, 3);
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: rgb(205, 5, 5);
+    color: rgb(255, 255, 255);
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 10px 0;
+    color: rgb(255, 255, 255);
 }
